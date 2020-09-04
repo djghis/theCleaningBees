@@ -3,6 +3,7 @@ import { Link } from "gatsby"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+import Instagram from "../components/instagram"
 
 const IndexPage = () => (
   <Layout>
@@ -12,6 +13,7 @@ const IndexPage = () => (
     <p>We will come and clean your House/offices.</p>
     <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
     </div>
+    <Instagram />
     <Link to="/page-2/">Meet the Team</Link> <br />
   </Layout>
 )

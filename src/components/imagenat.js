@@ -26,7 +26,7 @@ const ImageNat = () => {
     }
   `)
 
-  return <Img fluid={data.placeholderImage.childImageSharp.fluid} />
+  return <Img className='resize'  fluid={data.placeholderImage.childImageSharp.fluid} />
 }
 
 export default ImageNat

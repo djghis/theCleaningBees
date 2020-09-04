@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `The Cleaning Bees`,
-    description: `We will Clean your home and offices around North Berwickand East Lothian`,
+    description: `We will Clean your home and offices around North Berwick and East Lothian`,
     author: `Gg`,
   },
   plugins: [
@@ -13,7 +13,15 @@ module.exports = {
         path: `${__dirname}/src/images`,
       },
     },
-    `gatsby-transformer-sharp`,
+    {
+      resolve: `gatsby-source-instagram`,
+      options: {
+        username: `40699353947`
+      },
+    },
+    {
+      resolve: `gatsby-transformer-sharp`
+    },
     `gatsby-plugin-sharp`,
     {
       resolve: `gatsby-plugin-manifest`,
