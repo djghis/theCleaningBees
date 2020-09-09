@@ -1,5 +1,5 @@
 import React from "react"
-import { Link } from "gatsby"
+// import { Link } from "gatsby"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
@@ -14,7 +14,7 @@ const IndexPage = () => (
     <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
     </div>
     <Instagram />
-    <Link to="/page-2/">Meet the Team</Link> <br />
+     <br />
   </Layout>
 )
 

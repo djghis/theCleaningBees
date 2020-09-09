@@ -13,10 +13,10 @@ import Img from "gatsby-image"
  * - `useStaticQuery`: https://www.gatsbyjs.org/docs/use-static-query/
  */
 
-const ImageNat = () => {
+const ImageBex = () => {
   const data = useStaticQuery(graphql`
     query {
-      placeholderImage: file(relativePath: { eq: "natProfile.jpg" }) {
+      placeholderImage: file(relativePath: { eq: "bexProfile.png" }) {
         childImageSharp {
           fluid(maxWidth: 300) {
             ...GatsbyImageSharpFluid
@@ -29,4 +29,4 @@ const ImageNat = () => {
   return <Img className='bio-photo'  fluid={data.placeholderImage.childImageSharp.fluid} />
 }
 
-export default ImageNat
+export default ImageBex

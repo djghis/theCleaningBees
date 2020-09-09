@@ -43,15 +43,18 @@ const Instagram = () => {
     `)
       console.log(data.allInstaNode.edges)
       return (
-        <div>
+        <div >
+            <h2>This is our Instagram Gallery.</h2>
                 {data.allInstaNode.edges.map(edge => 
                     <a href={edge.node.original}>
-                    <Img 
+                    <Img className="insta-photo"
+                      key={edge.node.id}
                       fixed={edge.node.localFile.childImageSharp.fixed}
+                      alt="Photo from instagram"
                     />
                     </a>
                     )}
-            </div>
+        </div>
       )
 }
 

@@ -25,6 +25,7 @@ const Layout = ({ children }) => {
 
   return (
     <>
+    <div>
       <Header siteTitle={data.site.siteMetadata.title} />
       <div
         style={{
@@ -34,12 +35,13 @@ const Layout = ({ children }) => {
         }}
       >
         <main>{children}</main>
-        <footer>
+      </div>
+      <footer>
           © {new Date().getFullYear()}, Built by 
           {` `}
           <a href="https://www.linkedin.com/in/ghislain-mercier/">GG</a>
-        </footer>
-      </div>
+      </footer>
+        </div>
     </>
   )
 }
