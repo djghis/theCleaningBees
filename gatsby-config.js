@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `The Cleaning Bees`,
-    description: `We will Clean your home and offices around North Berwick and East Lothian`,
+    description: `cleaner, cleaners, house clean, lothian, east lothian, North Berwick, Gullane, Dirleton, clean bees, cleen bees, beesy cleaning, busy cleaning, best clean team`,
     author: `Gg`,
   },
   plugins: [

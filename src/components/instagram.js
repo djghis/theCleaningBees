@@ -12,8 +12,6 @@ const Instagram = () => {
           edges {
             node {
               id
-              likes
-              comments
               mediaType
               preview
               original
