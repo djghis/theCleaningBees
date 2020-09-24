@@ -4,7 +4,6 @@ import Img from 'gatsby-image'
 
 
 
-
 const Instagram = () => {
     const data = useStaticQuery(graphql`
     query {
@@ -39,10 +38,9 @@ const Instagram = () => {
         }
       }
     `)
-      console.log(data.allInstaNode.edges)
       return (
         <div >
-            <h2>This is our Instagram Gallery.</h2>
+            <h2><a href='https://www.instagram.com/thecleaningbeesel/'>Follow us on Instagram  <span><img className='insta-logo' src="https://www.transparentpng.com/thumb/logo-instagram/z75gfy-instagram-logo-png.png" alt="instagram logo png @transparentpng.com" /></span></a></h2>
                 {data.allInstaNode.edges.map(edge => 
                     <a href={edge.node.original}>
                     <Img className="insta-photo"

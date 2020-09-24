@@ -3,7 +3,7 @@ import React from "react"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import Instagram from "../components/instagram"
+
 
 const IndexPage = () => (
   <Layout>
@@ -13,7 +13,7 @@ const IndexPage = () => (
     <p>We will come and clean your House/offices.</p>
     <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
     </div>
-    <Instagram />
+    {/* <Instagram /> */}
      <br />
   </Layout>
 )

@@ -1,5 +1,4 @@
 import React from "react"
-// import { Link } from "gatsby"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
@@ -9,9 +8,9 @@ import ImageBex from "../components/imagebex"
 import NatBio from "../components/natBio"
 import BexBio from "../components/bexBio"
 
-const SecondPage = () => (
+const MeetTheTeam = () => (
   <Layout>
-    <SEO title="Page two" />
+    <SEO title="Meet the team" />
     <h1>Meet the Team</h1>
     <p>This our Lovely team that will come to dust, clean and Scrubbbb</p>
     <div className="bio">
@@ -25,4 +24,4 @@ const SecondPage = () => (
   </Layout>
 )
 
-export default SecondPage
+export default MeetTheTeam
