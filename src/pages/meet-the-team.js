@@ -12,7 +12,8 @@ const MeetTheTeam = () => (
   <Layout>
     <SEO title="Meet the team" />
     <h1>Meet the Team</h1>
-    <p>This our Lovely team that will come to dust, clean and Scrubbbb</p>
+    <h2>More coming soon</h2>
+    {/* <p>This our Lovely team that will come to dust, clean and Scrubbbb</p>
     <div className="bio">
       <ImageNat />
       <br></br>
@@ -20,7 +21,7 @@ const MeetTheTeam = () => (
       <NatBio />
       <br></br>
       <BexBio />
-    </div>
+    </div> */}
   </Layout>
 )
 

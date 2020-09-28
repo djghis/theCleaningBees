@@ -16,6 +16,8 @@ import MenuButton from "./menu-button"
 import Menu from './menu'
 
 
+
+
 class Layout extends Component {
   constructor(props, context) {
     super(props, context)
@@ -25,9 +27,9 @@ class Layout extends Component {
   }
 
   handleMouseDown = (event) => {
+    // this.changeHamburger();
     this.toggleMenu();
     console.log('clicked');
-    // event.stopPropagation();
     event.preventDefault();
   }
 
@@ -38,9 +40,9 @@ class Layout extends Component {
   // }
   
 
-  changeHamburger = (e) => {
-    e.classList.toggle("change");
-  }
+  // changeHamburger = (e) => {
+  //   e.classNameList.toggle("change");
+  // }
 
   toggleMenu = () => {
     this.setState({ 
@@ -76,7 +78,8 @@ class Layout extends Component {
                 paddingTop: 0,
               }}
             >
-             <MenuButton handleMouseDown={this.handleMouseDown} />
+            
+              <MenuButton handleMouseDown={this.handleMouseDown} />
               <Menu handleMouseDown={this.handleMouseDown} menuVisibility={this.state.visible} siteTitle={data.site.siteMetadata.title} />
               <main>{children}</main>
               <footer>

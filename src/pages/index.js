@@ -1,21 +1,23 @@
 import React from "react"
+import ImageBee from "../components/image-bee"
 // import { Link } from "gatsby"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+// import "./index.module.scss"
+import Img from 'gatsby-image'
 
 
 const IndexPage = () => (
+  <div className="bee-background" >
   <Layout>
     <SEO title="Home" />
-    <h1>Hello Lovelies</h1>
-    <p>Welcome the Cleaning Bees.</p>
-    <p>We will come and clean your House/offices.</p>
-    <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-    </div>
-    {/* <Instagram /> */}
-     <br />
+    {/* <div className="bee-background" > */}
+    {/* <ImageBee /> */}
+    
+    {/* </div> */}
   </Layout>
+  </div>
 )
 
 export default IndexPage

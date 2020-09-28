@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import './menu.css'
 import { Link } from 'gatsby'
+import MenuButton from './menu-button';
 
 
 class Menu extends Component {
@@ -21,6 +22,12 @@ class Menu extends Component {
         onMouseDown={this.props.handleMouseDown}
         className={visibility}>
         <h1 style={{ margin: 0}}>
+        {/* <MenuButton /> */}
+        <div id="mdiv">
+          <div class="mdiv">
+          <div class="md"></div>
+          </div>
+        </div>
         <Link
           to="/"
           style={{

@@ -1,11 +1,11 @@
 #fly-out-menu {
-    width: 100vw;
+    width: 72vw;
     height: 100vh;
     background-color: gold;
     position: fixed;
     top: 0;
     left: 0;
-    transition: transform .3s cubic-bezier(0, .52, 0,1);
+    transition: transform 1s cubic-bezier(0, .52, 0,1);
     overflow: scroll;
     z-index: 1000;
 }
@@ -22,3 +22,25 @@
 #fly-out-menu a:hover {
     text-decoration: underline;
 } 
+#mdiv {
+  width: 35px;
+  height: 25px;
+}
+
+.mdiv {
+  height: 35px;
+  width: 5px;
+  margin-left: 12px;
+  background-color: black;
+  transform: rotate(45deg);
+  Z-index: 1;
+}
+
+
+.md {
+  height: 35px;
+  width: 5px;
+  background-color: black;
+  transform: rotate(90deg);
+  Z-index: 2;
+}

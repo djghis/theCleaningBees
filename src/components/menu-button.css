@@ -1,5 +1,7 @@
 #round-button {
-    background-color: gold;
+    display: block;
+    /* background-color: gold; */
+    background-image: url("../images/bee.jpeg");
     margin-bottom: 20px;
     width: 50px;
     height: 50px;
@@ -7,6 +9,8 @@
     border: 10px solid green;
     outline: none;
     transition: all .2s cubic-bezier(0, 1.26. .8, 1.28);
+    color: white;
+    /* z-index: 1001; */
 }
 
 #round-button:hover {
@@ -21,7 +25,7 @@
     background-color: #FFF;
 }
 
-.Hamburer-button {
+.hamburer-button {
     display: inline-block;
     cursor: pointer;
   }
@@ -45,3 +49,5 @@
     -webkit-transform: rotate(45deg) translate(-8px, -8px);
     transform: rotate(45deg) translate(-8px, -8px);
   }
+  
+  
