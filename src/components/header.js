@@ -5,6 +5,7 @@ import React from "react"
 const Header = ({ siteTitle }) => (
   <header
     style={{
+      backgroundImage: 'url(../images/bee-background.jpeg)',
       background: `#ffdd1a`,
       marginBottom: `1.45rem`,
     }}
@@ -12,8 +13,8 @@ const Header = ({ siteTitle }) => (
     <div
       style={{
         margin: `0 auto`,
-        maxWidth: 960,
-        padding: `1.45rem 1.0875rem`,
+        maxWidth: 1200,
+        padding: `1rem 1rem`,
       }}
     >
       <h1 style={{ margin: 0}}>
@@ -23,10 +24,11 @@ const Header = ({ siteTitle }) => (
             fontFamily: 'Liu Jian Mao Cao',
             color: `white`,
             textDecoration: `none`,
-            fontSize: '4rem',
+            fontSize: '2rem',
           }}
         >
-          {siteTitle}
+        We buzz around your hive making it Bee-utiful and clean so you don't have to!
+          {/* {siteTitle} */}
         </Link>
       </h1> 
     </div>

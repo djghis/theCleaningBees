@@ -16,6 +16,7 @@ const SocialMedia = () => (
     <p>Here are some pics from instagram</p>
     
      <Instagram />
+   
     </div>
     
   </Layout>
