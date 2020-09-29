@@ -4,8 +4,8 @@ import ImageBee from "../components/image-bee"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-// import "./index.module.scss"
-import Img from 'gatsby-image'
+// import "./index.module.css"
+
 
 
 const IndexPage = () => (
