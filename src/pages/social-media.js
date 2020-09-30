@@ -13,7 +13,7 @@ const SocialMedia = () => (
     <div className='social-media' >
   
     <h1>Social Media</h1>
-    <p>Here are some pics from instagram</p>
+    <p>Our Instagram feed</p>
     
      <Instagram />
    

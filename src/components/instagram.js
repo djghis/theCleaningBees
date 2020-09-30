@@ -42,20 +42,7 @@ const Instagram = () => {
     `)
       return (
         <div >
-            <h2><a href='https://www.instagram.com/thecleaningbeesel/' target='-blank' >Follow us on Instagram  
-                <span>
-                <img className='insta-logo' src={Instalogo} 
-                alt="instagram logo png @transparentpng.com" />
-                </span>
-            </a></h2>
-            <h2>
-                <a href='https://www.facebook.com/cleaningeastlothian' target="_blank">Follow us on Facebook  
-                  <span><img 
-                  className='insta-logo' src={Fblogo} 
-                  alt="facebook logo" /></span>
-                </a>
-            </h2>
-                          {data.allInstaNode.edges.map(edge => 
+           {data.allInstaNode.edges.map(edge => 
                     <a href={edge.node.original}>
                     <Img className="insta-photo"
                       key={edge.node.id}
@@ -64,6 +51,26 @@ const Instagram = () => {
                     />
                     </a>
                     )}
+            <h2
+              style={{
+            fontFamily: 'Anahaw',}}
+            ><a href='https://www.instagram.com/thecleaningbeesel/' target='-blank' >Follow us on Instagram  
+                <span>
+                <img className='insta-logo' src={Instalogo} 
+                alt="instagram logo png @transparentpng.com" />
+                </span>
+            </a></h2>
+            <h2
+              style={{
+            fontFamily: 'Anahaw',}}
+            >
+                <a href='https://www.facebook.com/cleaningeastlothian' target="_blank">Follow us on Facebook  
+                  <span><img 
+                  className='insta-logo' src={Fblogo} 
+                  alt="facebook logo" /></span>
+                </a>
+            </h2>
+                         
         </div>
       )
 }
