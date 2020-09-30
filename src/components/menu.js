@@ -34,7 +34,7 @@ class Menu extends Component {
             fontFamily: 'Liu Jian Mao Cao',
             color: `white`,
             textDecoration: `none`,
-            fontSize: '4rem',
+            fontSize: '2.5rem',
           }}
         >
           Home
@@ -47,7 +47,7 @@ class Menu extends Component {
             fontFamily: 'Liu Jian Mao Cao',
             color: `white`,
             textDecoration: `none`,
-            fontSize: '4rem',
+            fontSize: '2.5rem',
           }}
         >
           Price List
@@ -60,7 +60,7 @@ class Menu extends Component {
             fontFamily: 'Liu Jian Mao Cao',
             color: `white`,
             textDecoration: `none`,
-            fontSize: '4rem',
+            fontSize: '2.5rem',
           }}
         >
           FAQS
@@ -73,7 +73,7 @@ class Menu extends Component {
             fontFamily: 'Liu Jian Mao Cao',
             color: `white`,
             textDecoration: `none`,
-            fontSize: '4rem',
+            fontSize: '2.5rem',
           }}
         >
           The Bee Team
@@ -86,7 +86,7 @@ class Menu extends Component {
             fontFamily: 'Liu Jian Mao Cao',
             color: `white`,
             textDecoration: `none`,
-            fontSize: '4rem',
+            fontSize: '2.5rem',
           }}
         >
           Social Media
@@ -99,7 +99,7 @@ class Menu extends Component {
             fontFamily: 'Liu Jian Mao Cao',
             color: `white`,
             textDecoration: `none`,
-            fontSize: '4rem',
+            fontSize: '2.5rem',
           }}
         >
           Contact Us
