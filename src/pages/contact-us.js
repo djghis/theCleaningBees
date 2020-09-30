@@ -3,6 +3,8 @@ import React from "react"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+import Instalogo from '../images/logo-insta.png'
+import Fblogo from '../images/facebook-logo.png'
 import PhoneIcon from '../images/phone-icon.png'
 import EmailIcon from '../images/email-icon.png'
 
@@ -31,7 +33,7 @@ const ContactUs = () => (
     >
       <a href='https://www.instagram.com/thecleaningbeesel/' target="_blank">Follow us on Instagram  
         <span><img 
-        className='insta-logo' src="https://www.transparentpng.com/thumb/logo-instagram/z75gfy-instagram-logo-png.png" 
+        className='insta-logo' src={Instalogo} 
         alt="instagram logo" /></span>
       </a>
     </h2>
@@ -41,7 +43,7 @@ const ContactUs = () => (
     >
       <a href='https://www.facebook.com/cleaningeastlothian' target="_blank">Follow us on Facebook  
         <span><img 
-        className='insta-logo' src="https://www.transparentpng.com/thumb/facebook-logo/new-facebook-logo-12.png" 
+        className='insta-logo' src={Fblogo} 
         alt="facebook logo" /></span>
       </a>
     </h2>
