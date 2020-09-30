@@ -21,7 +21,7 @@ const ContactUs = () => (
     <h3
       style={{
             fontFamily: 'Anahaw',}}
-    ><a href='mailto:hellocleaningbees@gmail.com'><span><img className='insta-logo' src={EmailIcon} alt='email icon' /></span>: hellocleaningbees@gmail.com</a></h3>
+    ><a href='mailto:hellocleaningbees@gmail.com?subject=Please send me more info.'><span><img className='insta-logo' src={EmailIcon} alt='email icon' /></span>: hellocleaningbees@gmail.com</a></h3>
     <h1>You can also find us on social medias</h1>
     </div>
     <div>
