@@ -36,6 +36,9 @@ class Menu extends Component {
             textDecoration: `none`,
             fontSize: '2.5rem',
           }}
+          activeStyle={{
+             color: "#FFC20E" 
+             }}
         >
           Home
         </Link>
@@ -49,6 +52,9 @@ class Menu extends Component {
             textDecoration: `none`,
             fontSize: '2.5rem',
           }}
+          activeStyle={{
+             color: "#FFC20E" 
+             }}
         >
           Price List
         </Link>
@@ -62,6 +68,9 @@ class Menu extends Component {
             textDecoration: `none`,
             fontSize: '2.5rem',
           }}
+          activeStyle={{
+             color: "#FFC20E" 
+             }}
         >
           FAQS
         </Link>
@@ -75,6 +84,9 @@ class Menu extends Component {
             textDecoration: `none`,
             fontSize: '2.5rem',
           }}
+          activeStyle={{
+             color: "#FFC20E" 
+             }}
         >
           The Bee Team
         </Link>
@@ -88,6 +100,9 @@ class Menu extends Component {
             textDecoration: `none`,
             fontSize: '2.5rem',
           }}
+          activeStyle={{
+             color: "#FFC20E" 
+             }}
         >
           Social Media
         </Link>
@@ -101,6 +116,9 @@ class Menu extends Component {
             textDecoration: `none`,
             fontSize: '2.5rem',
           }}
+          activeStyle={{
+             color: "#FFC20E" 
+             }}
         >
           Contact Us
         </Link>
