@@ -13,23 +13,31 @@ const PriceList = () => (
     <h4><u>Regular Cleaning for the Whole Hive...</u></h4>
     <div className="weekly-clean">
         <h5><u>The Wee Bee Clean £25</u></h5>
-        <p>Suitable for: <b>1 Bedroom/retirement/sheltered houses/elderly</b></p>
+        <p>Suitable for: <b>1 Bedroom/retirement/sheltered house/elderly</b></p>
         <p>General Clean and Tidy of entrance, bathroom, bedroom, living room and kitchen
         includes a bed change. Floors are hoovered and mopped.</p>
 
-        <h5><u>The Queen Clean £45 (Approx. 1,5 hours)</u></h5>
-        <p>Suitable for: <b>3 Bed home/average size/1 toilet/1 en-suite/1 family bathroom</b></p>
-        <p>General Clean and Tidy of entrance, hallway, bathrooms, bedrooms, living room and kitchen
-        can include a bed changes. Floors are hoovered and mopped.</p>
+        <h5><u>Two Bee Clean £30</u></h5>
+        <p>Suitable for: <b>2 Bed average size home/cotage</b></p>
+        <p>General Clean and Tidy of entrance, bathroom, bedroom, living room and kitchen.
+         Floors are hoovered and mopped.</p>
 
-        <h5><u>The Bigger Queen Clean £60 (Approx. 2 hours)</u></h5>
-        <p>Suitable for: <b>4 Bed home/average size/ dining area/1 toilet/1 en-suite/1 family bathroom</b></p>
-        <p>General Clean and Tidy of entrance, hallway, bathrooms, bedrooms, living room and kitchen
-        can include a bed changes. Floors are hoovered and mopped.</p>
+        <h5><u>The Queen Clean £35 weekly/ £45 Fortnightly</u></h5>
+        <p>Suitable for: <b>3 Bed home average size house</b></p>
+        <p>General Clean and Tidy of entrance, hallway, bathrooms, bedrooms, living room and kitchen.
+         Floors are hoovered and mopped.</p>
 
-        <h5><u>Queens Help By The Hour £30 Per Hour</u></h5>
+        <h5><u>The Bigger Queen Clean £45 Weekly/£60 Fortnightly </u></h5>
+        <p>Suitable for: <b>3/4 bed Larger size house</b></p>
+        <p>General Clean and Tidy of entrance, hallway, bathrooms, bedrooms, living room, dining area and kitchen.
+         Floors are hoovered and mopped.</p>
+
+        <h5><u>Queens Help By The Hour from  £28.50per hour</u></h5>
         <p>Suitable if you would like to pick and choose what you would like cleaned,
-        includes 2 cleaning bees.</p>
+        includes 2 cleaning bees... Getting the job done twice as fast.</p>
+
+        <h5><u>Beeutiful Bogs... and Floors from £30</u></h5>
+        <p>Just want the bathrooms and floors done... We can do just that!</p>
     </div>
     <h4><u>Bee Prepared Clean...</u></h4>
     <div className="one-off-clean">

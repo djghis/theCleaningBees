@@ -18,7 +18,7 @@ const IndexPage = () => (
           }}
     >Covid Safe</h1>
     <p>With the current guidelines we want to assure all measures are in place to keep you
-    and your household as ssafe as possible</p>
+    and your household as safe as possible</p>
     <br/>
     <p>Before we enter your home we always:</p>
     <p>*Take our temperature</p>
