@@ -19,7 +19,7 @@ class Menu extends Component {
         role="navigation menu"
         aria-label='nav bar'
         id='fly-out-menu'
-        onMouseDown={this.props.handleMouseDown}
+        onClick={this.props.handleMouseDown}
         className={visibility}>
         <h1 style={{ margin: 0}}>
         {/* <MenuButton /> */}
