@@ -31,24 +31,26 @@ const PriceList = () => (
         <p>Suitable if you would like to pick and choose what you would like cleaned,
         includes 2 cleaning bees.</p>
     </div>
-    <h4><u>Bee Preapred Clean...</u></h4>
+    <h4><u>Bee Prepared Clean...</u></h4>
     <div className="one-off-clean">
         <h5><u>Hive Deep Cleans...</u></h5>
         <p>Suitable for: <b>Holiday let/Spring Clean/End of Tenancy. All cleaning products etc ... supplied.</b></p>
          <h5>A Full Clean of your hive, checklist is available separately.</h5>
-         <p><b>2 Bed                    </b><span>£100 Approx. 3 Hours</span></p>
+         <p><b>2 Bed                    </b><span>£120 Approx. 3 Hours</span></p>
          <p><b>3 Bed                    </b><span>£150 Approx. 4 Hours</span></p>
          <p><b>4 Bed                    </b><span>£185 Approx. 5 Hours</span></p>
          <p><b>5 Bed                    </b><span>£240 Approx. 7 Hours</span></p>
         
         <h5><u>individual Hive Rooms...</u></h5>
-        <p><b>Kitchen deep clean                   </b><span>from £30</span></p>
+        <p><b>Kitchen deep clean                   </b><span>from £50</span></p>
         <p><b>Bathroom deep clean                   </b><span>£25</span></p>
         <p><b>Fridge clean             </b><span>£15</span></p>
         <p><b>Oven clean                   </b><span>from £45</span></p>
         <p><b>Internal windows clean                   </b><span>from £40</span></p>
-        <p><b>Washing                   </b><span>from £20per Ikea bag</span></p>
+        <p><b>Washing                   </b><span>from £25per Ikea bag</span></p>
         <p><b>Ironing                   </b><span>£15per hour</span></p>
+        <p><b>Home styling for SALE                  </b><span>£30</span></p>
+        <p><b>Fresh flowers by your Cleaning Bee Florist                  </b><span>from £20 per clean day</span></p>
         
 
     </div>
