@@ -3,11 +3,7 @@ import React from "react"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import Instalogo from '../images/logo-insta.png'
-import Fblogo from '../images/facebook-logo.png'
-import PhoneIcon from '../images/phone-icon.png'
-import EmailIcon from '../images/email-icon.png'
-import ContactForm from "../components/contact-form"
+import ContactForm from '../components/contact-form'
 
 
 const ContactUs = () => (
@@ -17,35 +13,23 @@ const ContactUs = () => (
     <p>here are all the way you can contact us:</p>
     
     <div className="Contact-us">
-    <h3
-      style={{
-            fontFamily: 'Anahaw',}}
-    ><a href='tel:00447985731129'><span><img className='insta-logo' src={PhoneIcon} alt='phone icon' /></span>: 07985 731129</a></h3><br/>
-    <h3
-      style={{
-            fontFamily: 'Anahaw',}}
-    ><a href='mailto:hellocleaningbees@gmail.com?subject=Please send me more info.'><span><img className='insta-logo' src={EmailIcon} alt='email icon' /></span>: hellocleaningbees@gmail.com</a></h3>
+    <h2><a href='tel:00447985731129' rel="noreferrer">Phone us on: 07985 731129</a></h2><br/>
+    <h2><a href='mailto:hellocleaningbees@gmail.com' rel="noreferrer">Email us to: hellocleaningbees@gmail.com</a></h2>
+    <ContactForm />
     <h1>You can also find us on social medias</h1>
     </div>
-    <ContactForm />
     <div>
-    <h2
-      style={{
-            fontFamily: 'Anahaw',}}
-    >
-      <a href='https://www.instagram.com/thecleaningbeesel/' target="_blank">Follow us on Instagram  
+    <h2>
+      <a href='https://www.instagram.com/thecleaningbeesel/' target="_blank" rel="noreferrer">Follow us on Instagram  
         <span><img 
-        className='insta-logo' src={Instalogo} 
+        className='insta-logo' src="https://www.transparentpng.com/thumb/logo-instagram/z75gfy-instagram-logo-png.png" 
         alt="instagram logo" /></span>
       </a>
     </h2>
-    <h2
-      style={{
-            fontFamily: 'Anahaw',}}
-    >
-      <a href='https://www.facebook.com/cleaningeastlothian' target="_blank">Follow us on Facebook  
+    <h2>
+      <a href='https://www.facebook.com/cleaningeastlothian' target="_blank" rel="noreferrer">Follow us on Facebook  
         <span><img 
-        className='insta-logo' src={Fblogo} 
+        className='insta-logo' src="https://www.transparentpng.com/thumb/facebook-logo/new-facebook-logo-12.png" 
         alt="facebook logo" /></span>
       </a>
     </h2>

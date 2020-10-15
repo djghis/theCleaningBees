@@ -43,7 +43,7 @@ const Instagram = () => {
       return (
         <div >
            {data.allInstaNode.edges.map(edge => 
-                    <a href={edge.node.original}>
+                    <a href={edge.node.original} target="_blank" rel="noreferrer">
                     <Img className="insta-photo"
                       key={edge.node.id}
                       fixed={edge.node.localFile.childImageSharp.fixed}
@@ -54,7 +54,7 @@ const Instagram = () => {
             <h2
               style={{
             fontFamily: 'Anahaw',}}
-            ><a href='https://www.instagram.com/thecleaningbeesel/' target='-blank' >Follow us on Instagram  
+            ><a href='https://www.instagram.com/thecleaningbeesel/' target='-blank' rel="noreferrer" >Follow us on Instagram  
                 <span>
                 <img className='insta-logo' src={Instalogo} 
                 alt="instagram logo png @transparentpng.com" />
@@ -64,7 +64,7 @@ const Instagram = () => {
               style={{
             fontFamily: 'Anahaw',}}
             >
-                <a href='https://www.facebook.com/cleaningeastlothian' target="_blank">Follow us on Facebook  
+                <a href='https://www.facebook.com/cleaningeastlothian' target="_blank" rel="noreferrer">Follow us on Facebook  
                   <span><img 
                   className='insta-logo' src={Fblogo} 
                   alt="facebook logo" /></span>

@@ -58,6 +58,7 @@ template {
   display: none;
 }
 a {
+  font-family: 'Anahaw';
   background-color: transparent;
   -webkit-text-decoration-skip: objects;
   text-decoration: none;
@@ -738,6 +739,82 @@ footer {
   font-size: 7rem;
 }
 
+/* .contact-form {
+  display: block;
+} */
+
+.align-center {
+	text-align: center;
+}
+
+/* Add styles to 'container' class */
+.contact-form {
+	padding: 12px 24px 24px 24px;
+	margin: 48px 12px;
+	/* background: #FEE249; */
+	border-radius: 4px;
+}
+
+/* Add styles to 'label' selector */
+label {
+  font-family: 'Anahaw';
+	/* font-size: 0.85em;
+	margin-left: 12px; */
+}
+
+/* Add styles to 'input' and 'textarea' selectors */
+input[type=text],input[type=email], textarea {
+    font-family: 'Anahaw';
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #FEE249;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    background-color: #f1e750c4;
+}
+
+/* Add styles to show 'focus' of selector */
+input[type=text]:focus,input[type=email]:focus, textarea:focus {
+	border: 2px solid #FEE249;
+}
+
+/* Add styles to the submit button */
+button[type=submit],
+input[type=reset] {
+  font-family: 'Anahaw';
+	background:#fee34986;
+	margin: 0 auto;
+	outline: 0;
+	color: rgb(49, 42, 42);
+	border: 0;
+	padding: 12px 24px;
+	border-radius: 4px;
+	transition: all ease-in-out 0.1s;
+	position: relative;
+	display: inline-block;
+	text-align: center;
+}
+
+/* Add styles for 'focus' property */
+button[type=submit]:focus,
+input[type=reset]:focus {
+	background:#FEE249;
+	color: whitesmoke;
+}
+
+/* Style 'hover' property */
+button[type=submit]:hover,
+input[type=reset]:hover {
+	background: #FEE249;
+}
+
+/* Align items to center of the 'div' with the class 'center' */
+.center {
+	text-align: center;
+}
                 
 
 
