@@ -7,6 +7,7 @@ import Instalogo from '../images/logo-insta.png'
 import Fblogo from '../images/facebook-logo.png'
 import PhoneIcon from '../images/phone-icon.png'
 import EmailIcon from '../images/email-icon.png'
+import ContactForm from "../components/contact-form"
 
 
 const ContactUs = () => (
@@ -26,6 +27,7 @@ const ContactUs = () => (
     ><a href='mailto:hellocleaningbees@gmail.com?subject=Please send me more info.'><span><img className='insta-logo' src={EmailIcon} alt='email icon' /></span>: hellocleaningbees@gmail.com</a></h3>
     <h1>You can also find us on social medias</h1>
     </div>
+    <ContactForm />
     <div>
     <h2
       style={{

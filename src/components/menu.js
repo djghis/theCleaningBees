@@ -24,8 +24,8 @@ class Menu extends Component {
         <h1 style={{ margin: 0}}>
         {/* <MenuButton /> */}
         <div id="mdiv">
-          <div class="mdiv">
-          <div class="md"></div>
+          <div className="mdiv">
+          <div className="md"></div>
           </div>
         </div>
         <Link
