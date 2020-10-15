@@ -7,9 +7,18 @@ const ContactForm = () => {
         <input type="hidden" name="bot-field" />
         <input type="hidden" name="form-name" value="contact"/>
         <label>
-        Message: 
-            <input type="text" name="message" placeholder="Your message here...">    
+        Your name: 
+            <input type="text" name="name" placeholder="John Smith">    
             </input>
+        </label>
+        <label>
+        Your email: 
+            <input type="email" name="email" placeholder="jhonsmith@gmail.com">    
+            </input>
+        </label>
+        <label>
+        Message: 
+            <textarea name="message"/>
         </label>
         <button type="submit">
                Send   
