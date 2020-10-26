@@ -21,7 +21,9 @@ class Menu extends Component {
         id='fly-out-menu'
         onClick={this.props.handleMouseDown}
         className={visibility}>
-        <h1 style={{ margin: 0}}>
+        <h1 
+        style={{ marginTop: 55}}
+        >
         {/* <MenuButton /> */}
         <Link
           to="/"
@@ -29,7 +31,7 @@ class Menu extends Component {
             fontFamily: 'Liu Jian Mao Cao',
             color: `white`,
             textDecoration: `none`,
-            fontSize: '2.5rem',
+            // fontSize: '2.5rem',
           }}
           activeStyle={{
              color: "#FFC20E" 
@@ -38,14 +40,16 @@ class Menu extends Component {
           Home
         </Link>
       </h1> 
-      <h1 style={{ margin: 0}}>
+      <h1 
+      // style={{ margin: 0}}
+      >
         <Link
           to="/price-list"
           style={{
             fontFamily: 'Liu Jian Mao Cao',
             color: `white`,
             textDecoration: `none`,
-            fontSize: '2.5rem',
+            // fontSize: '2.5rem',
           }}
           activeStyle={{
              color: "#FFC20E" 
@@ -54,14 +58,16 @@ class Menu extends Component {
           Price List
         </Link>
       </h1> 
-      <h1 style={{ margin: 0}}>
+      <h1
+      //  style={{ margin: 0}}
+       >
         <Link
           to="/faqs"
           style={{
             fontFamily: 'Liu Jian Mao Cao',
             color: `white`,
             textDecoration: `none`,
-            fontSize: '2.5rem',
+            // fontSize: '2.5rem',
           }}
           activeStyle={{
              color: "#FFC20E" 
@@ -70,14 +76,16 @@ class Menu extends Component {
           FAQS
         </Link>
       </h1> 
-      <h1 style={{ margin: 0}}>
+      <h1 
+      // style={{ margin: 0}}
+      >
         <Link
           to="/meet-the-team"
           style={{
             fontFamily: 'Liu Jian Mao Cao',
             color: `white`,
             textDecoration: `none`,
-            fontSize: '2.5rem',
+            // fontSize: '2.5rem',
           }}
           activeStyle={{
              color: "#FFC20E" 
@@ -86,7 +94,9 @@ class Menu extends Component {
           The Bee Team
         </Link>
       </h1> 
-      <h1 style={{ margin: 0}}>
+      <h1 
+      // style={{ margin: 0}}
+      >
         <Link
           to="/social-media"
           style={{
@@ -102,20 +112,40 @@ class Menu extends Component {
           Social Media
         </Link>
       </h1> 
-      <h1 style={{ margin: 0}}>
+      <h1
+      //  style={{ margin: 0}}
+      >
         <Link
           to="/contact-us"
           style={{
             fontFamily: 'Liu Jian Mao Cao',
             color: `white`,
             textDecoration: `none`,
-            fontSize: '2.5rem',
+            // fontSize: '2.5rem',
           }}
           activeStyle={{
              color: "#FFC20E" 
              }}
         >
           Contact Us
+        </Link>
+      </h1> 
+      <h1
+      //  style={{ margin: 0}}
+      >
+        <Link
+          to="/covid-safe"
+          style={{
+            fontFamily: 'Liu Jian Mao Cao',
+            color: `white`,
+            textDecoration: `none`,
+            // fontSize: '2.5rem',
+          }}
+          activeStyle={{
+             color: "#FFC20E" 
+             }}
+        >
+          Covid Safe
         </Link>
       </h1> 
         </div>

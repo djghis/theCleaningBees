@@ -15,7 +15,7 @@ html {
   -webkit-text-size-adjust: 100%;
 }
 body {
-  background-image: url("../images/bee.jpeg");
+  /* background-image: url("../images/bee.jpeg"); */
   background-repeat: repeat-y;
   background-position:center top 12vh;
   background-size: 100vh;
@@ -24,7 +24,8 @@ body {
   margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #FEE249;
+  /* background-color: #FEE249; */
+  background-color: #547E6C;
 }
 article,
 aside,
@@ -252,7 +253,7 @@ h1 {
   padding-right: 0;
   padding-top: 0;
   margin-bottom: 1.45rem;
-  color: inherit;
+  color: #FEE249;
   /* font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, */
     /* Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif; */
   font-family: 'Liu Jian Mao Cao', cursive;
@@ -270,7 +271,7 @@ h2 {
   padding-right: 0;
   padding-top: 0;
   margin-bottom: 1.45rem;
-  color: inherit;
+  color: white;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   font-weight: bold;
@@ -304,7 +305,7 @@ h4 {
   padding-right: 0;
   padding-top: 0;
   margin-bottom: 1.45rem;
-  color: inherit;
+  color: #FEE249;
   font-family: 'Liu Jian Mao Cao', cursive;
   font-weight: bold;
   text-rendering: optimizeLegibility;
@@ -320,7 +321,7 @@ h5 {
   padding-right: 0;
   padding-top: 0;
   margin-bottom: 1.45rem;
-  color: inherit;
+  color: #FEE249;
   font-family: 'Liu Jian Mao Cao', cursive;
   font-weight: bold;
   text-rendering: optimizeLegibility;
@@ -403,6 +404,7 @@ p {
   font-family: 'Anahaw';
   font-weight: bold;
   font-style: normal;
+  color: white;
   margin-left: 0;
   margin-right: 0;
   margin-top: 0;
@@ -649,6 +651,23 @@ pre tt:after {
   }
 }
 
+@media only screen and (max-width: 750px) {
+  header h1 {
+    font-size: 1rem;
+    margin: 10px;
+  }
+
+  .menu-link h1 {
+    font-size: 2.5rem;
+    margin: 0.5px; 
+   }
+}
+
+.menu-link h1 {
+  font-size: 4rem;
+  margin: 10px
+}
+
 .insta-photo {
   margin: 2px;
   padding: 3rem;
@@ -686,7 +705,7 @@ header > div {
  
 
   /* display: inline-block; */
-  width: 80%;
+  /* width: 80%; */
   margin-left: 10%;
   margin-right: 10%;
   /* flex-direction: row; */
@@ -727,13 +746,14 @@ footer {
 }
 
 
-
-.bee-background {
-  background-image: url('../images/bee-background.jpeg');
+ 
+ .bee-background {
+  background:  url('../images/new-green-background.jpeg') no-repeat center fixed;
+  background-image: url('../images/new-green-background.jpeg'); 
   background-size: cover;
   width: 100vw;
-  height: 99vh;
-}
+  height: 100vh; 
+ } 
 
 .bee-background > p {
   font-size: 7rem;
@@ -758,6 +778,7 @@ footer {
 /* Add styles to 'label' selector */
 label {
   font-family: 'Anahaw';
+  color: white;
 	/* font-size: 0.85em;
 	margin-left: 12px; */
 }

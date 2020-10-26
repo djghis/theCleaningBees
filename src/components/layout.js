@@ -66,9 +66,9 @@ class Layout extends Component {
         render={data => (
           <>
             
-            <Header
+            {/* <Header
               siteTitle={data.site.siteMetadata.title}
-            />
+            /> */}
 
             <div
               style={{

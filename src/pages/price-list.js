@@ -18,7 +18,7 @@ const PriceList = () => (
         includes a bed change. Floors are hoovered and mopped.</p>
 
         <h5><u>Two Bee Clean £30</u></h5>
-        <p>Suitable for: <b>2 Bed average size home/cotage</b></p>
+        <p>Suitable for: <b>2 Bed average size home/cottage</b></p>
         <p>General Clean and Tidy of entrance, bathroom, bedroom, living room and kitchen.
          Floors are hoovered and mopped.</p>
 

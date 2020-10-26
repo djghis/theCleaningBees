@@ -6,7 +6,7 @@ const Header = ({ siteTitle }) => (
   <header
     style={{
       backgroundImage: 'url(../images/bee-background.jpeg)',
-      background: `#ffdd1a`,
+      background: `#547E6C`,
       marginBottom: `1.45rem`,
     }}
   >
@@ -14,7 +14,7 @@ const Header = ({ siteTitle }) => (
       style={{
         margin: `0 auto`,
         maxWidth: 1200,
-        padding: `1rem 1rem`,
+        padding: `1rem 0rem`,
       }}
     >
       <h1 style={{ margin: 0}}>
@@ -22,9 +22,9 @@ const Header = ({ siteTitle }) => (
           to="/"
           style={{
             fontFamily: 'Liu Jian Mao Cao',
-            color: `white`,
+            color: `#FEE249`,
             textDecoration: `none`,
-            fontSize: '2rem',
+           
           }}
         >
         We buzz around your hive making it Bee-utiful and clean so you don't have to!
