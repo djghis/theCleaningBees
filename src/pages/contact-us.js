@@ -27,7 +27,7 @@ const ContactUs = () => (
       </a>
     </h2>
     <h2>
-      <a href='https://www.facebook.com/cleaningeastlothian' target="_blank" rel="noreferrer">Follow us on Facebook  
+      <a href='https://www.facebook.com/thecleaningbeesnorthberwick' target="_blank" rel="noreferrer">Follow us on Facebook  
         <span><img 
         className='insta-logo' src="https://www.transparentpng.com/thumb/facebook-logo/new-facebook-logo-12.png" 
         alt="facebook logo" /></span>
