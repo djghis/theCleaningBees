@@ -12,7 +12,8 @@ const IndexPage = () => (
   <div className="bee-background" >
   <Layout>
     <SEO title="Home" />
-    .
+    <h1 className="title">The Cleaning Bees</h1>
+    <h2>"We buzz around your hive making it Beeutiful and clean so you don't have to."</h2>
   </Layout>
   </div>
 )

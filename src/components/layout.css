@@ -722,7 +722,7 @@ header > div {
 }
 
 header {
-  background-image: url('../images/bee-background.jpeg');
+  /* background-image: url('../images/bee-background.jpeg'); */
   background-size: cover;
 }
 
@@ -755,8 +755,8 @@ footer {
 
  
  .bee-background {
-  background:  url('../images/new-green-background.jpeg') no-repeat center fixed;
-  background-image: url('../images/new-green-background.jpeg'); 
+  /* background:  url('../images/new-green-background.jpeg') no-repeat center fixed; */
+  /* background-image: url('../images/new-green-background.jpeg');  */
   background-size: cover;
   width: 100vw;
   height: 100vh; 
@@ -847,7 +847,10 @@ input[type=reset]:hover {
 	text-align: center;
 }
                 
-
+.title {
+  font-family: 'Liu Jian Mao Cao', cursive;
+  font-size: 8rem;
+}
 
 
 
