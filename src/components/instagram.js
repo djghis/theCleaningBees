@@ -1,8 +1,9 @@
 import React from 'react'
 import { useStaticQuery, graphql } from "gatsby"
 import Img from 'gatsby-image'
+// import Instalogo from '../images/insta-logo-bw.png'
 import Instalogo from '../images/logo-insta.png'
-import Fblogo from '../images/facebook-logo.png'
+// import Fblogo from '../images/facebook-logo.png'
 
 
 
@@ -41,7 +42,8 @@ const Instagram = () => {
       }
     `)
       return (
-        <div >
+        <div>
+        <div className="gallery" >
            {data.allInstaNode.edges.map(edge => 
                     <a href={edge.node.original} target="_blank" rel="noreferrer">
                     <Img className="insta-photo"
@@ -51,16 +53,17 @@ const Instagram = () => {
                     />
                     </a>
                     )}
+          </div>
             <h2
               style={{
-            fontFamily: 'Anahaw',}}
-            ><a href='https://www.instagram.com/thecleaningbeesel/' target='_blank' rel="noreferrer" >Follow us on Instagram  
+            fontFamily: 'Gochi Hand',}}
+            ><a href='https://www.instagram.com/thecleaningbeesel/' target='-blank' rel="noreferrer" >Follow us on Instagram  
                 <span>
                 <img className='insta-logo' src={Instalogo} 
                 alt="instagram logo png @transparentpng.com" />
                 </span>
             </a></h2>
-            <h2
+            {/* <h2
               style={{
             fontFamily: 'Anahaw',}}
             >
@@ -69,7 +72,7 @@ const Instagram = () => {
                   className='insta-logo' src={Fblogo} 
                   alt="facebook logo" /></span>
                 </a>
-            </h2>
+            </h2> */}
                          
         </div>
       )

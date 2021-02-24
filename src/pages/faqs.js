@@ -21,7 +21,7 @@ const Faqs = () => (
     <h5>How often will I need to use Cleaning Bees ?</h5>
     <p>We are available for weekly, fortnightly and One offs clean.</p>
 
-    <h5>Waht are our standards ?</h5>
+    <h5>What are our standards ?</h5>
     <p>Cleaning Bees are a professional, reliable an discreet service based in North Berwick. We have substantial experience
     in domestic and commercial cleaning, both privately and within the hospitality sector. We want you to feel secure in every aspect
     of our service. We are fully insured and currently being police checked. We hold a COSHH training certificate, ensuring the safe use of chemicals
