@@ -15,7 +15,7 @@ const Faqs = () => (
     <p>We can supply a full range of cleaning products for your home. Due to Covid19 wae would like each
     home to have their own cleaning kit, this cost £25.<br/>
     This kit is only for us to use, we source everything, it stays in your home only, therefore reducing the risk
-    of cross contamination. We currently using Method cleaning range which not only smell fantasticm are antibacterial and work wellm they are
+    of cross contamination. We currently using Method cleaning range which not only smell fantasticm are antibacterial and work well they are
     also environmentally friendly. If you would like to supply the cleaning kit, we can send you a list of what is required.</p>
 
     <h5>How often will I need to use Cleaning Bees ?</h5>
