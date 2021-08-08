@@ -12,10 +12,9 @@ const Faqs = () => (
   
     <div className="faqs">
     <h5>Who supplies the cleaning products ?</h5>
-    <p>We can supply a full range of cleaning products for your home. Due to Covid19 we would like each
-    home to have their own cleaning kit, these cost £25.<br/>
-    This kit is only for us to use, we source everything, it stays in your home only, therefore reducing the risk
-    of cross contamination. We currently using Method cleaning range which not only smell fantastic, they are antibacterial, work well and are also environmentally friendly. If you would like to supply the cleaning kit, we can send you a list of what is required.</p>
+    <p>We supply a full range of cleaning products for your home. We are currently using the Method cleaning range which not only smell fantastic, are antibacterial, cruelty free and free of nasty toxins by being plant based!
+    If you would like to supply the cleaning kit, we can send you a list of what is required.
+    </p>
 
     <h5>How often will I need to use Cleaning Bees ?</h5>
     <p>We are available for weekly, fortnightly and One offs clean.</p>
@@ -33,9 +32,21 @@ const Faqs = () => (
      to your satisfacion of a BEE-autifully clean home!</p>
 
      <h5>What other measures are in place regarding Covid19 ?</h5>
-     <p>With restriction we ask that you are NOT  home for the clean. If you mus be there, we ask you stay within a room with the door closed. All measures are in placeto minimise
-     any risk and keep you and your household, as well as ourselves as safe as possible during this time. All cloths and cleaning products will be bagged separately and sterelised
-     between clients. All door handles antibactrial wiped before leaving.</p>
+     <p>With restriction we ask you are NOT home for the clean. If you must be there, we ask you stay within a room with the door closed. All measures are in place to minimise any risk and keep you and your household, as well as ourselves as safe as possible during this time.
+      We currently also: </p>
+
+    <ul className="price-list-ul">
+            <p><li>Antibacterial our hands</li></p>
+            <p> <li>Wear a mask at all times</li></p>
+            <p> <li>Take our temperature before entering all properties</li></p>
+            <p> <li>All door handles antibacterial wiped before leaving</li></p>      
+            <p> <li>All cloths and cleaning products are bagged separately and sterilised between clients.</li></p>
+            
+          </ul>
+
+    <h5>How do I pay</h5>
+     <p>It’s nice and simple really, we accept cash or send an invoice after each clean ready to make a bank transfer! All cleans must be paid for within 24 hours of us providing our regular service and One-off services
+        require a 50% Deposit to secure an appointment. </p>
      
     </div>
     

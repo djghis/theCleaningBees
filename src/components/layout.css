@@ -860,7 +860,13 @@ input[type=reset]:hover {
 .center {
 	text-align: center;
 }
-                
+ 
+.price-list-ul {
+  /* list-style-type: none; */
+  list-style-position: inside;
+  line-height: 50%;
+}
+
 
 
 
